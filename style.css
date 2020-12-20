@@ -1,0 +1,106 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(./img/bg_masked.png);
+    background-size: cover;
+}
+
+.my-navbar{
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1em ;
+}
+
+.home-section{
+    text-align: center;
+    border-radius: 50%;
+    display: block;
+    margin-top: 2.5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.img-name{
+    margin: 1em;
+    color: blanchedalmond;
+}
+
+.social{
+    margin: auto;
+    text-align: center;
+    /* background-color: #202020; */
+    width: 25%;
+    /* border-radius: 1em; */
+    /* position: relative; */
+}
+
+.social ul{
+    margin: 0;
+    padding: 0;
+    padding: 0.4em 0;
+}
+
+.social ul li{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline;
+}
+
+.social ul li a{
+    padding: 0 1em;
+}
+
+.aboutme{
+    color: #FFF;
+    margin: auto;
+    padding: 2em;
+    text-align: center;
+    font-size: large;
+   
+}
+
+.aboutme h1{
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.skills{
+    margin: auto;
+    padding: 2em;
+    text-align: center;
+    color: #FFF;
+
+}
+
+.skills h1{
+
+    font-family: 'Hammersmith One', sans-serif;
+
+}
+
+.skills h2{
+    padding: 1em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.Education{
+
+    margin: auto;
+    padding: 2em;
+    text-align: center;
+    color: #FFF;
+}
+
+.Education h1{
+
+    font-family: 'Hammersmith One', sans-serif;
+
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background: #2b2b2b;
+    color: #fff;
+    height: 60px; }
+

@@ -1,0 +1,19 @@
+ <div class="d-flex align-items-center">
+        <ul class="list-group p-3 mx-auto" data-aos="zoom-in-down">
+            <li class="list-group-item">
+                <div class="small" style="color: #b7b6bb">2018 - PRESENT</div>
+                <div class="large font-weight-bold mt-2" style="color: #FFFFFF;">D. Y. Patil College of Engineering,
+                    Pune</div>
+                <div class="small" style="color: #b7b6bb">Pune, Maharashtra</div>
+                <div class="font-weight-light mt-1" style="color: #7b7a7f">Bachelor of Engineering in Information
+                    Technology</div>
+            </li>
+            <li class="list-group-item">
+                <div class="small" style="color: #b7b6bb">2015 - 2018</div>
+                <div class="large font-weight-bold mt-2" style="color: #FFFFFF;">Government Polytechnic, Jalgaon
+                </div>
+                <div class="small" style="color: #b7b6bb">Jalgaon, Maharashtra</div>
+                <div class="font-weight-light mt-1" style="color: #7b7a7f">Diploma in Information Technology</div>
+            </li>
+        </ul>
+    </div>

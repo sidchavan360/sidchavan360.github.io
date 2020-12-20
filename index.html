@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+       
+    <link href="./style.css" rel="Stylesheet">
+
+    <title>Portfolio | Siddharth Chavan</title>
+</head>
+
+<body>
+
+    <!-- NavBar Start hear -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark my-navbar" >
+        <div class="text-light">
+        <a class="navbar-brand" href="index.html"><i class="fas fa-code" style="color: gold;"></i> Siddharth Chavan</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutme">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Education">Education</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+     <!-- NavBar Ends hear -->
+
+
+     <!-- Home Section Start -->
+
+    <div class="home-section">
+     <img src="./img/circle-cropped.png" alt="My-photo" width="300px" height="300px" class="img-fluid my-img">
+    <h2 class="img-name">Siddharth Chavan</h2> 
+    <h2 class="img-name" style="font-size: 1.6em"><i class="fas fa-code" style="color: gold;"></i> Web Developer</h2>
+</div>
+
+<div class="social ">
+
+    <ul>
+        <li><a href="https://www.instagram.com/sidd.360/" target="_blank" style="color: #e95950;"><i class="fab fa-instagram fa-3x icon"></i></a></li>
+        <li><a href="https://www.github.com/sidchavan360/" target="_blank" style="color: #ffffff;"><i class="fab fa-github fa-3x icon"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/siddharth-chavan-8897ab1b2/" style="color: #0072b1;" target="_blank"><i class="fab fa-linkedin fa-3x icon"></i></a></li>
+        <li><a href="mailto:chavansiddharth.54@gmail.com" style="color: #4285F4;" target="_blank"><i class="fas fa-envelope fa-3x icon"></i></a></li>
+        
+    </ul>
+
+</div>
+
+ <!-- Home Section Ends hear -->
+
+
+<!-- AboutMe Section Start -->
+
+<div class="aboutme" id="aboutme">
+    <!-- <img src="./img/undraw_code_thinking_1jeh.svg"> -->
+    <img src="data:image/png;base64,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">
+     <h1>About Me</h1>
+     I am 20 Year BSC(ECS) student , I am interested in UI & UX design and currently working in full stack web development & also develop Android apps. I am a programmer with good problem solving skills and good pressure handling. I am a quick learner. Other than programming I also like to listen music, and love to travel.
+
+</div>
+
+<!-- AboutMe Section End Hear -->
+
+
+<!-- Skill Section Start Hear -->
+
+<div class="skills" id="Skills">
+    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+    width="75" height="75"
+    viewBox="0 0 172 172"
+    style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><path d="" fill="none"></path><path d="" fill="none"></path><path d="" fill="none"></path><g fill="#ffffff"><path d="M27.52,27.52c-7.71592,0 -13.76,6.04408 -13.76,13.76v75.68c0,2.53872 0.70542,4.86072 1.85437,6.88h-8.73437c-1.90232,0 -3.44,1.53768 -3.44,3.44c0,9.48408 7.71592,17.2 17.2,17.2h130.72c9.48408,0 17.2,-7.71592 17.2,-17.2c0,-1.90232 -1.53768,-3.44 -3.44,-3.44h-8.73437c1.14896,-2.01928 1.85437,-4.34128 1.85437,-6.88v-75.68c0,-7.71592 -6.04408,-13.76 -13.76,-13.76zM27.52,34.4h116.96c3.92504,0 6.88,2.95496 6.88,6.88v75.68c0,3.92504 -2.95496,6.88 -6.88,6.88h-116.96c-3.92504,0 -6.88,-2.95496 -6.88,-6.88v-75.68c0,-3.92504 2.95496,-6.88 6.88,-6.88zM91.15328,51.55297c-1.63539,0.00697 -3.03985,1.16424 -3.35938,2.76813l-10.32,48.16c-0.25719,1.20273 0.14691,2.4513 1.06005,3.27524c0.91314,0.82394 2.19653,1.09804 3.3666,0.71901c1.17006,-0.37903 2.04897,-1.35358 2.30554,-2.55645l10.32,-48.16c0.23374,-1.02395 -0.01305,-2.09858 -0.67012,-2.91795c-0.65707,-0.81937 -1.65242,-1.29371 -2.70269,-1.28799zM62.04765,61.87969c-1.13595,-0.0325 -2.21467,0.49806 -2.88234,1.41766l-11.86531,15.82265l11.86531,15.82265c1.13917,1.52137 3.29597,1.8312 4.81734,0.69203c1.52137,-1.13917 1.8312,-3.29597 0.69203,-4.81734l-8.77469,-11.69735l8.77469,-11.69735c0.79195,-1.02461 0.94145,-2.40713 0.38684,-3.57735c-0.55461,-1.17022 -1.71937,-1.92986 -3.01387,-1.96562zM109.85156,61.8864c-1.27389,0.07328 -2.40259,0.84561 -2.9323,2.00646c-0.52971,1.16085 -0.37341,2.51953 0.40605,3.52979l8.77469,11.69735l-8.77469,11.69735c-1.13917,1.52137 -0.82934,3.67817 0.69203,4.81734c1.52137,1.13917 3.67817,0.82934 4.81734,-0.69203l11.86531,-15.82265l-11.86531,-15.82265c-0.68921,-0.94764 -1.81335,-1.47934 -2.98312,-1.41094zM10.91125,130.72h16.60875h116.96h16.60875c-1.42072,4.00416 -5.24299,6.88 -9.72875,6.88h-130.72c-4.48576,0 -8.30803,-2.87584 -9.72875,-6.88z"></path></g></g></svg>
+<h1>Skills</h1>
+
+<h2>Languages</h2>
+
+<img src="https://img.icons8.com/color/75/000000/java-coffee-cup-logo.png"/>
+<img src="https://img.icons8.com/color/70/000000/python.png"/>
+<img src="https://img.icons8.com/color/70/000000/html-5.png"/>
+<img src="https://img.icons8.com/color/70/000000/css3.png"/>
+<img src="https://img.icons8.com/dusk/65/000000/javascript-logo.png"/>
+
+<h2>Tools/Librares</h2>
+
+<img src="https://img.icons8.com/color/70/000000/adobe-xd.png"/>
+<img src="https://img.icons8.com/fluent/70/000000/adobe-photoshop.png"/>
+<img src="https://img.icons8.com/color/70/000000/bootstrap.png"/>
+
+</div>
+
+<!-- Skill Section End Hear -->
+
+<!-- Education Section Start Hear -->
+
+<div class="Education" id="Education">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+    width="70" height="70"
+    viewBox="0 0 172 172"
+    style=" fill:#000000;"><g transform=""><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><path d="" fill="none"></path><path d="" fill="none"></path><path d="" fill="none"></path><g fill="#ffffff"><path d="M85.98656,6.88c-0.56806,0.00249 -1.12666,0.1456 -1.62594,0.41656l-82.56,44.72c-1.07466,0.58417 -1.75835,1.69501 -1.79569,2.91761c-0.03734,1.2226 0.57727,2.3731 1.61429,3.02176l5.26078,3.28547v46.0436c-3.98155,1.43536 -6.88,5.22533 -6.88,9.675c0,1.98842 0.63672,3.47877 1.36391,5.13313c0.72719,1.65435 1.63991,3.33913 2.53969,4.89125c1.79956,3.10425 3.58781,5.69078 3.58781,5.69078l2.82859,4.10516l2.82859,-4.10516c0,0 1.78825,-2.58654 3.58781,-5.69078c0.89978,-1.55212 1.8125,-3.2369 2.53969,-4.89125c0.72719,-1.65435 1.36391,-3.1447 1.36391,-5.13313c0,-4.44967 -2.89845,-8.23964 -6.88,-9.675v-41.7436l24.94672,15.59422c-8.49336,14.70868 -11.31754,31.47987 -11.18,53.93812c0.01125,1.88929 1.54396,3.416 3.43328,3.41985c27.2723,0.00688 46.75551,8.58581 52.04344,17.99281c0.60895,1.08469 1.75599,1.75617 2.99992,1.75617c1.24393,0 2.39097,-0.67149 2.99992,-1.75617c5.28869,-9.40837 24.7577,-17.9861 52.03,-17.99281c1.89194,-0.00016 3.42873,-1.52794 3.44,-3.41985c0.13434,-22.45685 -2.6808,-39.22847 -11.17328,-53.93812l37.08078,-23.17969c1.03701,-0.64866 1.65163,-1.79916 1.61428,-3.02176c-0.03734,-1.2226 -0.72103,-2.33344 -1.79569,-2.91761l-82.56,-44.72c-0.50727,-0.2753 -1.07565,-0.41855 -1.65281,-0.41656zM86,14.23031l75.73375,41.02469l-75.73375,47.32687l-75.73375,-47.32687zM127.47485,84.77047c7.23108,12.64388 9.86196,27.09998 10.01094,47.09844c-24.22595,0.60382 -42.70215,7.07339 -51.48578,17.94578c-8.78759,-10.87211 -27.26506,-17.34318 -51.4925,-17.94578c0.14729,-19.99471 2.79271,-34.44812 10.02437,-47.09172l39.64735,24.77875c1.11435,0.69509 2.52722,0.69509 3.64156,0zM10.32,113.52c1.90764,0 3.44,1.53237 3.44,3.44c0,-0.09642 -0.22328,1.0846 -0.78609,2.365c-0.56281,1.2804 -1.37009,2.79106 -2.19031,4.20594c-0.23146,0.39927 -0.23623,0.36232 -0.46359,0.73906c-0.22736,-0.37674 -0.23213,-0.3398 -0.46359,-0.73906c-0.82022,-1.41488 -1.6275,-2.92554 -2.19031,-4.20594c-0.56281,-1.2804 -0.78609,-2.46142 -0.78609,-2.365c0,-1.90763 1.53236,-3.44 3.44,-3.44z"></path></g></g></g></svg>
+
+
+
+<h1>Education</h1>
+
+<div class="d-flex align-items-center">
+    <ul class="list-group p-3 mx-auto" data-aos="zoom-in-down">
+        <li class="list-group-item">
+            <div class="small" style="color: #000000">2017 - 2019</div>
+            <div class="large font-weight-bold mt-2" style="color: #000000;">
+               SSC <br>
+               HSC
+                </div>
+            <div class="small" style="color: #000000">Sangola, Maharashtra</div>
+            <div class="font-weight-light mt-1" style="color: #000000"> Sangola Vidyamandir Sangola</div>
+        </li>
+        <li class="list-group-item">
+            <div class="small" style="color: #000000">2019 - Present</div>
+            <div class="large font-weight-bold mt-2" style="color: #000000;"> BSC (ECS)
+            </div>
+            <div class="small" style="color: #000000">Sangola, Maharashtra</div>
+            <div class="font-weight-light mt-1" style="color: #000000">Sangola Mahavidyalaya Sangola</div>
+        </li>
+    </ul>
+</div>
+      
+</div>
+
+<!-- Education Section End Hear -->
+
+
+
+<!-- Footer Section Start Hear -->
+
+
+<footer class="footer"> Designed by Siddharth &copy; 2020</footer>
+<!-- Footer Section End Hear -->
+
+
+
+
+<script src="https://kit.fontawesome.com/c6153d298d.js"></script>
+</body>
+
+ </html>
+
