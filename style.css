@@ -9,7 +9,9 @@ body{
 .my-navbar{
     background-color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 1em ;
+    position: fixed;
+    top: 0;
+    width: 100%; 
     
 }
 
@@ -24,9 +26,20 @@ body{
     
 }
 
+.my-img{
+    margin: 2em 0;
+}
+
+#my-name{
+    font-size: 1.6em;
+    font-style: bold;
+    color: blanchedalmond;
+}
+
 .img-name{
     margin: 1em;
     color: blanchedalmond;
+    font-size: 1.4em;
 }
 
 .social{
@@ -93,11 +106,28 @@ body{
     text-align: center;
     color: #FFF;
 }
+.eduTable{
+    color: white;
+    font-style: bold;
+    font-size: 1.1em;
+}
+.eduTable li{
+    border: 1px solid white;
+    padding: 1em 2em;
+    background-color: transparent;
+    color: white;
+   
+}
 
 .Education h1{
 
     font-family: 'Hammersmith One', sans-serif;
 
+}
+
+.col-xs-4{
+    border: 1px solid black;
+    text-align: center;
 }
 
 .footer {
